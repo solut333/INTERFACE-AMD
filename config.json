@@ -1,0 +1,8 @@
+{
+    "fan_speed": 40,
+    "core_clock_offset": 0,
+    "mem_clock_offset": 0,
+    "alert_sound_path": "alert.wav",
+    "start_minimized": true,
+    "power_limit": 100
+}

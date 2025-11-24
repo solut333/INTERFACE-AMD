@@ -1,0 +1,6 @@
+requests
+packaging
+pystray
+Pillow
+matplotlib
+sv-ttk

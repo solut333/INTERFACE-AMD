@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=GPU Controller
+Comment=Monitore e controle sua GPU
+Exec=/opt/pop-os-controller/run.sh
+Icon=/opt/pop-os-controller/icon.png
+Terminal=false
+Type=Application
+Categories=System;Utility;

@@ -1,0 +1,13 @@
+[Unit]
+Description=Aplica as configurações do Pop OS Controller na inicialização
+After=graphical.target
+
+[Service]
+Type=oneshot
+# ATENÇÃO: O caminho foi atualizado para INTERFACE AMD.
+# O caminho abaixo será substituído automaticamente pelo script de instalação.
+ExecStart=/usr/bin/python3 __EXEC_START_PATH__
+RemainAfterExit=yes
+
+[Install]
+WantedBy=graphical.target
